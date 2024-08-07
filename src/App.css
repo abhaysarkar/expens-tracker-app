@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ensures the container takes full viewport height */
+ /* height: 100vh;  Ensures the container takes full viewport height */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
   padding: 20px; /* Add padding to prevent content from touching the edges */
 }
