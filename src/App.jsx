@@ -669,7 +669,7 @@ function App() {
                 className="form-control mb-2"
                 placeholder="paid by"
                 value={userName}
-                onChange={(e) => setUserName(capitalizeFirstLetter(e.target.value).trim()}
+                onChange={(e) => setUserName(capitalizeFirstLetter(e.target.value).trim())}
                 required
               />
               <input
