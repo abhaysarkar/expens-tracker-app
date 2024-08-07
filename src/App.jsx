@@ -706,7 +706,7 @@ function App() {
                 {goods.map((good) => (
                   <tr key={good.id}>
                     <td>{good.name}</td>
-                    <td>${good.cost.toFixed(2)}</td>
+                    <td>Rs{good.cost.toFixed(2)}</td>
                     <td>{good.userName}</td>
                     <td>{good.date}</td>
                     <td>
