@@ -1,10 +1,11 @@
-
 /* Base styles */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  height: 100vh; /* Ensures the container takes full viewport height */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding: 20px; /* Add padding to prevent content from touching the edges */
 }
 
 .content {
@@ -38,12 +39,11 @@
 }
 
 /* Media query for mobile devices */
-
-
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center; /* Maintain centering on mobile */
+    padding: 10px; /* Adjust padding for mobile */
   }
 
   .table th,
