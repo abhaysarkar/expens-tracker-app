@@ -651,7 +651,7 @@ function App() {
               <input
                 type="text"
                 className="form-control mb-2"
-                placeholder="Good's Name"
+                placeholder="product name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
